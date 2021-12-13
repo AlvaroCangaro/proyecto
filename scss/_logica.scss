@@ -1,0 +1,23 @@
+/* Maps y operaciones*/
+
+$height: 100px;
+
+$heightF: (
+    footer__logo: ($height/2)-5,
+    footer__marcas: ($height/2)-10,
+    footer__redes: $height - 67,
+    footer__pago: ($height/5)+15,
+);
+
+@each $hN, $hT in $heightF {
+    .#{$hN}{
+        height: $hT;
+    }
+}
+
+/* Extend */
+
+.columnFlex {
+    display: flex;
+    flex-direction: column;
+}
