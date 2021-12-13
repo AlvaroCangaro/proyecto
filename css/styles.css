@@ -27,7 +27,7 @@ html {
   word-spacing: 0.2rem; }
 
 .body {
-  background-image: url(/imagenes/fondo.png); }
+  background-image: url(../imagenes/fondo.png); }
 
 .header {
   background-image: linear-gradient(#0a0a0a, #0f0f0f, #242424);
@@ -323,7 +323,8 @@ main {
 
 .gridAreas {
   display: grid;
-  grid-template-areas: "img producto" "descripcion descripcion";
+  grid-template-areas: "img producto"
+ "descripcion descripcion";
   grid-template-columns: 45% 55%;
   grid-template-rows: 50% 50%;
   margin-top: 5%; }
@@ -597,7 +598,9 @@ footer h4 {
     margin-bottom: 6%; }
   .gridAreas {
     display: grid;
-    grid-template-areas: "img" "producto" "descripcion";
+    grid-template-areas: "img"
+ "producto"
+ "descripcion";
     grid-template-columns: 100%;
     grid-template-rows: 21%; }
   .producto {
@@ -614,7 +617,9 @@ footer h4 {
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .gridAreas {
     display: grid;
-    grid-template-areas: "img" "producto" "descripcion";
+    grid-template-areas: "img"
+ "producto"
+ "descripcion";
     grid-template-columns: 100%;
     grid-template-rows: 16%; }
   .medidaMain2 {
@@ -690,7 +695,9 @@ footer h4 {
     font-size: 14px; }
   .gridAreas {
     display: grid;
-    grid-template-areas: "img" "producto" "descripcion";
+    grid-template-areas: "img"
+ "producto"
+ "descripcion";
     grid-template-columns: 100%;
     grid-template-rows: 11.5%; }
   .button-64 span {
